@@ -9,8 +9,7 @@ font = cv2.FONT_HERSHEY_DUPLEX
 
 cv2.putText(background, "RUDRA", (50, 200), font, 4, (255, 255, 255), 3, cv2.LINE_8)
 cv2.putText(background, "BARAD", (50, 330), font, 4, (255, 255, 255), 3, cv2.LINE_8)
-
-# .circle(img,text,pts,font,size,color,thickness,type of line)
+# .putText(image, text, coordinates, font, color, thickness, line_tyoe)
 
 cv2.imshow('text', background)
 # .image(name of window, object to show)
