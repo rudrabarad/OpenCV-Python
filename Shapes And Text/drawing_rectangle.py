@@ -5,7 +5,7 @@ background = np.zeros((600, 600, 3), dtype='uint8')
 # to create a black background .zeros((pt1,pt1,channels), dtype='8-bit signed integer')
 
 cv2.rectangle(background, (100, 100), (500, 500), (225, 225, 225), 1, lineType=8, shift=0)
-# .rectangle(pic,pt2,pt2,color,thickness.line-type,shift(decrease))
+# .rectangle(pic,pt2,pt2,color,thickness.line-type,shift(decrease) )
 
 cv2.imshow('rectangle', background)
 # .image(name of window, object to show)
