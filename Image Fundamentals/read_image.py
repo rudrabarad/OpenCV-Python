@@ -1,4 +1,4 @@
-import numpy as np      # used to handle all the multi dimensional arrays within the picture
+import numpy as np                       # used to handle all the multi dimensional arrays within the picture
 import cv2
 
 img = cv2.imread('scene_jpg.jpg', 1)     # used to read an colourful image
