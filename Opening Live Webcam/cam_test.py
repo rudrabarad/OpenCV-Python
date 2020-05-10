@@ -10,8 +10,10 @@ while (True):    # infinite loop for live webcam
 
     cv2.imshow('frame', frame)  # displaying the image continuously to show live video
 
-    k = cv2.waitKey(30) & 0xff  # for exiting the program
-    if k == 27:  # press 'ESC' to quit
-        break
+    k = cv2.waitKey(100) & 0xff  # Waits for .1(100ms) second before capturing another image
+    # to increase time between each capture, increase parameters in waitKey()
+    if k == 27:  # Press 'ESC' for exiting program
+        break  # breaks out of the loop
+
 cap.release()
 cv2.destroyAllWindows()
